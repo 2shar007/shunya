@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 10, 2015 at 07:41 PM
+-- Generation Time: Jan 11, 2015 at 02:25 AM
 -- Server version: 5.5.40-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.5
 
@@ -47,6 +47,29 @@ CREATE TABLE IF NOT EXISTS `agent` (
 INSERT INTO `agent` (`id`, `name`, `dob`, `email`, `gender`, `designation`, `resume`, `address`, `phone`, `aadhaar`) VALUES
 (5, 'Arun Trivedi', '1-7-', 'arun.trivedi@blahinsurance.co', 'male', 'junior', '', '85/1 , Koramangala 3rd Phase , Bangalore - 560021', '9583999234', '183223134111'),
 (6, 'Ramya', '12-6-', 'fearless_ramya@yahoo.co.in', 'female', 'senior', '', 'Blahistan, Blahpur, Post-Blah, Pin-100001', '9445251397', '909896347869');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `customer`
+--
+
+CREATE TABLE IF NOT EXISTS `customer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `aadhaar` varchar(12) NOT NULL,
+  `dob` varchar(10) NOT NULL,
+  `gender` varchar(10) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `plan_name` varchar(50) NOT NULL,
+  `plan_term` int(11) NOT NULL,
+  `plan_premium` int(11) NOT NULL,
+  `plan_amount` int(11) NOT NULL,
+  `nominee_aadhaar` varchar(12) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `phone` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
