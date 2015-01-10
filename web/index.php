@@ -9,6 +9,7 @@ include_once("static.php");
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/shunya.ico">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -60,7 +61,7 @@ include_once("static.php");
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Agent Admin</strong>
@@ -75,7 +76,7 @@ include_once("static.php");
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Agent Admin</strong>
@@ -90,7 +91,7 @@ include_once("static.php");
                             <a href="#">
                                 <div class="media">
                                     <span class="pull-left">
-                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                        <img class="media-object" src="50x50" alt="">
                                     </span>
                                     <div class="media-body">
                                         <h5 class="media-heading"><strong>Agent Admin</strong>
@@ -159,36 +160,30 @@ include_once("static.php");
                         <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Analytics</a>
                     </li>
                     <li>
-                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Ledger</a>
                     </li>
                     <li>
                         <a href="forms.php"><i class="fa fa-fw fa-edit"></i> New Agent</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> News Feed</a>
                     </li>
                     <li>
-                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Preferences</a>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Agents <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">A. Trivedi</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Ramya J.</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="blank-page.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="index-rtl.php"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
                     </li>
                 </ul>
             </div>
@@ -218,7 +213,7 @@ include_once("static.php");
                     <div class="col-lg-12">
                         <div class="alert alert-info alert-dismissable">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <i class="fa fa-info-circle"></i>  <strong>Like Shunya Pro?</strong> Try out <a href="http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">Shunya Enterprise</a> for additional features!
+                            <i class="fa fa-info-circle"></i>  <strong>Like Shunya Pro?</strong> Try out <a href="http://localhost/" class="alert-link">Shunya Enterprise</a> for additional features!
                         </div>
                     </div>
                 </div>
@@ -233,12 +228,12 @@ include_once("static.php");
                                         <i class="fa fa-comments fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">26</div>
+                                        <div class="huge">9</div>
                                         <div><strong>Customer Requests</strong></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#customerReqs">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -255,12 +250,12 @@ include_once("static.php");
                                         <i class="fa fa-tasks fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">12</div>
+                                        <div class="huge">95</div>
                                         <div><strong>Existing Customers</strong></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#existCustomer">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -277,12 +272,12 @@ include_once("static.php");
                                         <i class="fa fa-support fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">124</div>
+                                        <div class="huge">1</div>
                                         <div><strong>Agent Support</strong></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#agentSupport">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -299,12 +294,12 @@ include_once("static.php");
                                         <i class="fa fa-bell fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">13</div>
+                                        <div class="huge">1</div>
                                         <div><strong>Pending Reviews</strong></div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#pendReviews">
                                 <div class="panel-footer">
                                     <span class="pull-left">View Details</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -320,7 +315,7 @@ include_once("static.php");
                     <div class="col-lg-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Area Chart</h3>
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Demographics Chart</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-area-chart"></div>
@@ -334,7 +329,7 @@ include_once("static.php");
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Donut Chart</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Sales Chart</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
@@ -347,41 +342,41 @@ include_once("static.php");
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Tasks Panel</h3>
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Activity Panel</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="list-group">
                                     <a href="#" class="list-group-item">
                                         <span class="badge">just now</span>
-                                        <i class="fa fa-fw fa-calendar"></i> Calendar updated
+                                        <i class="fa fa-fw fa-calendar"></i> Yearly Calendar updated
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">4 minutes ago</span>
-                                        <i class="fa fa-fw fa-comment"></i> Commented on a post
+                                        <i class="fa fa-fw fa-comment"></i> Customer ID #17 seeks clarification. 
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">23 minutes ago</span>
-                                        <i class="fa fa-fw fa-truck"></i> Order 392 shipped
+                                        <i class="fa fa-fw fa-truck"></i> [#91] New policy activated
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">46 minutes ago</span>
-                                        <i class="fa fa-fw fa-money"></i> Invoice 653 has been paid
+                                        <i class="fa fa-fw fa-money"></i> Premium for policy [#42] has been paid
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">1 hour ago</span>
-                                        <i class="fa fa-fw fa-user"></i> A new user has been added
+                                        <i class="fa fa-fw fa-user"></i> New customer has been enrolled
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">2 hours ago</span>
-                                        <i class="fa fa-fw fa-check"></i> Completed task: "pick up dry cleaning"
+                                        <i class="fa fa-fw fa-check"></i> Completed task: "update KYC #39"
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">yesterday</span>
-                                        <i class="fa fa-fw fa-globe"></i> Saved the world
+                                        <i class="fa fa-fw fa-globe"></i> Oil at record low. May affect Govt. bonds.
                                     </a>
                                     <a href="#" class="list-group-item">
                                         <span class="badge">two days ago</span>
-                                        <i class="fa fa-fw fa-check"></i> Completed task: "fix error on sales page"
+                                        <i class="fa fa-fw fa-check"></i> Completed task: "Resolve claim #13"
                                     </a>
                                 </div>
                                 <div class="text-right">
@@ -400,60 +395,60 @@ include_once("static.php");
                                     <table class="table table-bordered table-hover table-striped">
                                         <thead>
                                             <tr>
-                                                <th>Order #</th>
-                                                <th>Order Date</th>
-                                                <th>Order Time</th>
-                                                <th>Amount (USD)</th>
+                                                <th>Customer ID</th>
+                                                <th>Payment Date</th>
+                                                <th>Payment Time</th>
+                                                <th class="text-right">Premium Amount (INR)</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>3326</td>
-                                                <td>10/21/2013</td>
+                                                <td>26</td>
+                                                <td>10/01/2015</td>
                                                 <td>3:29 PM</td>
-                                                <td>$321.33</td>
+                                                <td align="right">3213.30</td>
                                             </tr>
                                             <tr>
-                                                <td>3325</td>
-                                                <td>10/21/2013</td>
+                                                <td>25</td>
+                                                <td>10/01/2015</td>
                                                 <td>3:20 PM</td>
-                                                <td>$234.34</td>
+                                                <td align="right">23434.00</td>
                                             </tr>
                                             <tr>
-                                                <td>3324</td>
-                                                <td>10/21/2013</td>
+                                                <td>33</td>
+                                                <td>10/01/2015</td>
                                                 <td>3:03 PM</td>
-                                                <td>$724.17</td>
+                                                <td align="right">7241.70</td>
                                             </tr>
                                             <tr>
-                                                <td>3323</td>
-                                                <td>10/21/2013</td>
+                                                <td>23</td>
+                                                <td>10/01/2015</td>
                                                 <td>3:00 PM</td>
-                                                <td>$23.71</td>
+                                                <td align="right">2371.00</td>
                                             </tr>
                                             <tr>
-                                                <td>3322</td>
-                                                <td>10/21/2013</td>
+                                                <td>9</td>
+                                                <td>10/01/2015</td>
                                                 <td>2:49 PM</td>
-                                                <td>$8345.23</td>
+                                                <td align="right">83452.30</td>
                                             </tr>
                                             <tr>
-                                                <td>3321</td>
-                                                <td>10/21/2013</td>
+                                                <td>1</td>
+                                                <td>10/01/2015</td>
                                                 <td>2:23 PM</td>
-                                                <td>$245.12</td>
+                                                <td align="right">2451.20</td>
                                             </tr>
                                             <tr>
-                                                <td>3320</td>
-                                                <td>10/21/2013</td>
+                                                <td>20</td>
+                                                <td>10/01/2015</td>
                                                 <td>2:15 PM</td>
-                                                <td>$5663.54</td>
+                                                <td align="right">5663.54</td>
                                             </tr>
                                             <tr>
-                                                <td>3319</td>
-                                                <td>10/21/2013</td>
+                                                <td>19</td>
+                                                <td>10/01/2015</td>
                                                 <td>2:13 PM</td>
-                                                <td>$943.45</td>
+                                                <td align="right">9434.50</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -467,6 +462,142 @@ include_once("static.php");
                 </div>
                 <!-- /.row -->
 
+			<!-- .modals -->
+			<div class="modal fade" id="customerReqs" tabindex="-1" role="dialog" aria-labelledby="customerReqs" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Customer Requests</h4>
+					</div>
+					<div class="modal-body">
+						<table class="table table-bordered table-hover table-striped">
+							<thead>
+                            <tr>
+								<th>Customer</th>
+								<th>Category</th>
+								<th>Importance</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+							<?php
+							for($i=2;$i<=10;$i++) {
+							$j = ($i*1083)%90;
+							echo "<tr>".
+									"<td>".$j."</td>".
+									"<td>Request change of insurance cover.</td>".
+									"<td>Moderate</td>".
+								"</tr>";
+							}
+                            ?>
+                            </tbody>
+                        </table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="existCustomer" tabindex="-1" role="dialog" aria-labelledby="existCustomer" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Existing Customers</h4>
+					</div>
+					<div class="modal-body">
+						<table class="table table-bordered table-hover table-striped">
+							<thead>
+                            <tr>
+								<th>Customer ID</th>
+								<th>Premium Amount</th>
+								<th>Term left</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+							<?php
+							for($i=1;$i<=10;$i++) {
+							$j = ($i*1083)%90;
+							echo "<tr>".
+									"<td>".$i."</td>".
+									"<td>".($j*7300/$i)."</td>".
+									"<td>".($i*$j)%25 ."</td>".
+								"</tr>";
+							}
+                            ?>
+                            </tbody>
+                        </table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="agentSupport" tabindex="-1" role="dialog" aria-labelledby="agentSupport" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Agent Support</h4>
+					</div>
+					<div class="modal-body">
+						<table class="table table-bordered table-hover table-striped">
+							<thead>
+                            <tr>
+								<th>Agent</th>
+								<th>Category</th>
+								<th>Importance</th>
+								<th>Issue</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+								<td>A. Trivedi</td>
+								<td>Payment of Premium</td>
+								<td>Moderate</td>
+								<td>Customer #15 needs relaxation of 15 days on deadline. Is it possible to forego the penalty, given his excellent track-record.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="pendReviews" tabindex="-1" role="dialog" aria-labelledby="pendReviews" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Pending Reviews</h4>
+					</div>
+					<div class="modal-body">
+						<table class="table table-bordered table-hover table-striped">
+							<thead>
+                            <tr>
+								<th>Application No.</th>
+								<th>Name</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+							<tr>
+								<td>20150109BZCFT5421K</td>
+								<td>Navin Tare</td>
+                            </tr>
+                            </tbody>
+                        </table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!-- /modals -->
             </div>
             <!-- /.container-fluid -->
 

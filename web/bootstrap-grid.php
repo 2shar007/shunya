@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/shunya.ico">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -153,36 +154,30 @@
                         <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Analytics</a>
                     </li>
                     <li>
-                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Ledger</a>
                     </li>
                     <li>
                         <a href="forms.php"><i class="fa fa-fw fa-edit"></i> New Agent</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> News Feed</a>
                     </li>
                     <li class="active">
-                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Preferences</a>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Agents <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">A. Trivedi</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Ramya J.</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="blank-page.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="index-rtl.php"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
                     </li>
                 </ul>
             </div>
@@ -197,14 +192,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Bootstrap Grid
+                            Preferences
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.php">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-wrench"></i> Bootstrap Grid
+                                <i class="fa fa-wrench"></i> Preferences
                             </li>
                         </ol>
                     </div>
@@ -215,7 +210,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-12
+                                Update Digital Signature
                             </div>
                         </div>
                     </div>
@@ -226,14 +221,14 @@
                     <div class="col-lg-6 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-6
+                                Change permissions (needs approval)
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-6
+                                Update Officer Information
                             </div>
                         </div>
                     </div>
@@ -244,28 +239,28 @@
                     <div class="col-lg-4 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-4
+                                Enable 2-Factor Authentication
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-4
+                                Import/Export System Data
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-4
+                                About Blah Insurance Co.
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-3 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -294,10 +289,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-2 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -340,10 +335,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-1 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -428,10 +423,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-8 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -446,11 +441,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
                 <div class="row">
-                    <div class="col-lg-3 text-center">
+                    <!--<div class="col-lg-3 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 .col-lg-3
@@ -463,11 +458,11 @@
                                 .col-lg-6
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="col-lg-3 text-center">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                .col-lg-3
+                                Contact Shunya <img src="assets/shunya.ico">
                             </div>
                         </div>
                     </div>

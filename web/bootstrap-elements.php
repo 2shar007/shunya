@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/shunya.ico">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -153,36 +154,30 @@
                         <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Analytics</a>
                     </li>
                     <li>
-                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Ledger</a>
                     </li>
                     <li>
                         <a href="forms.php"><i class="fa fa-fw fa-edit"></i> New Agent</a>
                     </li>
                     <li class="active">
-                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> News Feed</a>
                     </li>
                     <li>
-                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Preferences</a>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Agents <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">A. Trivedi</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Ramya J.</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="blank-page.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="index-rtl.php"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
                     </li>
                 </ul>
             </div>
@@ -197,14 +192,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Bootstrap Elements
+                            News Feed
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.php">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-desktop"></i> Bootstrap Elements
+                                <i class="fa fa-desktop"></i> News Feed
                             </li>
                         </ol>
                     </div>
@@ -213,13 +208,27 @@
 
                 <!-- Main jumbotron for a primary marketing message or call to action -->
                 <div class="jumbotron">
-                    <h1>Hello, world!</h1>
-                    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                    <h1>PK announced the largest blockbuster!</h1>
+                    <p>According to our critic, even Aliens get friend-zoned in India. Sympathy leads them to cross 300 ...</p>
+                    <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
+                    </p>
+                </div>
+                
+                <div class="jumbotron">
+                    <h1>Bangalore googled for code solutions even more than ‘Sunny Leone’ : Report</h1>
+                    <p>Year End Google Zeitgeist for the year 2013 has reveled that Bangaloreans searched for code ...</p>
+                    <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
+                    </p>
+                </div>
+                
+                <div class="jumbotron">
+                    <h1>Convinced with wisdom of machines, Google appoints a robot as CEO</h1>
+                    <p>Google is going all automated, just as they want our lives to be. In a recent robotics convention Google ...</p>
                     <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
                     </p>
                 </div>
 
-                <div class="page-header">
+                <!--<div class="page-header">
                     <h1>Buttons</h1>
                 </div>
                 <p>
@@ -323,12 +332,12 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
+                        </div>-->
                         <!--/.nav-collapse -->
-                    </div>
-                </div>
+                    <!--</div>
+                </div>-->
 
-                <div class="navbar navbar-inverse">
+                <!--<div class="navbar navbar-inverse">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -365,9 +374,9 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
+                        </div>-->
                         <!--/.nav-collapse -->
-                    </div>
+                    <!--</div>
                 </div>
 
                 <div class="page-header">
@@ -430,9 +439,9 @@
                             <li class="list-group-item">Porta ac consectetur ac</li>
                             <li class="list-group-item">Vestibulum at eros</li>
                         </ul>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="list-group">
                             <a href="#" class="list-group-item active">Cras justo odio</a>
                             <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
@@ -440,9 +449,9 @@
                             <a href="#" class="list-group-item">Porta ac consectetur ac</a>
                             <a href="#" class="list-group-item">Vestibulum at eros</a>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="list-group">
                             <a href="#" class="list-group-item active">
                                 <h4 class="list-group-item-heading">List group item heading</h4>
@@ -457,9 +466,9 @@
                                 <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                </div>
+                <!--</div>
 
                 <div class="page-header">
                     <h1>Panels</h1>
@@ -482,9 +491,9 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="panel panel-success">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Panel title</h3>
@@ -501,9 +510,9 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="panel panel-warning">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Panel title</h3>
@@ -520,9 +529,9 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Panel title</h3>
@@ -531,9 +540,9 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="panel panel-yellow">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Panel title</h3>
@@ -542,9 +551,9 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                    <div class="col-sm-4">
+                    <!--<div class="col-sm-4">
                         <div class="panel panel-red">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Panel title</h3>
@@ -553,16 +562,16 @@
                                 Panel content
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- /.col-sm-4 -->
-                </div>
+                <!--</div>
 
                 <div class="page-header">
                     <h1>Wells</h1>
                 </div>
                 <div class="well">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-                </div>
+                </div>-->
 
             </div>
             <!-- /.container-fluid -->

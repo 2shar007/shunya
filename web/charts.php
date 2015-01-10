@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/shunya.ico">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -156,36 +157,30 @@
                         <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li class="active">
-                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="charts.php"><i class="fa fa-fw fa-bar-chart-o"></i> Analytics</a>
                     </li>
                     <li>
-                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="tables.php"><i class="fa fa-fw fa-table"></i> Ledger</a>
                     </li>
                     <li>
                         <a href="forms.php"><i class="fa fa-fw fa-edit"></i> New Agent</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="bootstrap-elements.php"><i class="fa fa-fw fa-desktop"></i> News Feed</a>
                     </li>
                     <li>
-                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                        <a href="bootstrap-grid.php"><i class="fa fa-fw fa-wrench"></i> Preferences</a>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Agents <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">A. Trivedi</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Ramya J.</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="blank-page.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
-                    <li>
-                        <a href="index-rtl.php"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
                     </li>
                 </ul>
             </div>
@@ -200,14 +195,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Charts
+                            Analytics
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.php">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-bar-chart-o"></i> Charts
+                                <i class="fa fa-bar-chart-o"></i> Analytics
                             </li>
                         </ol>
                     </div>
@@ -215,15 +210,15 @@
                 <!-- /.row -->
 
                 <!-- Flot Charts -->
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-12">
                         <h2 class="page-header">Flot Charts</h2>
                         <p class="lead">Flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features. For full usage instructions and documentation for Flot Charts, visit <a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a>.</p>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
@@ -236,14 +231,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-4">
                         <div class="panel panel-green">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Pie Chart Example with Tooltips</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Sale of different Insurance Plans</h3>
                             </div>
                             <div class="panel-body">
                                 <div class="flot-chart">
@@ -270,10 +265,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-6">
                         <div class="panel panel-red">
                             <div class="panel-heading">
@@ -304,23 +299,23 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
                 <!-- Morris Charts -->
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-12">
                         <h2 class="page-header">Morris Charts</h2>
                         <p class="lead">Morris.js is a very simple API for drawing line, bar, area and donut charts. For full usage instructions and documentation for Morris.js charts, visit <a href="http://www.oesmith.co.uk/morris.js/">http://www.oesmith.co.uk/morris.js/</a>.</p>
                     </div>
-                </div>
+                </div>-->
                 <!-- /.row -->
 
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-green">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i> Area Line Graph Example with Tooltips</h3>
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i> Demographics Chart</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-area-chart"></div>
@@ -334,7 +329,7 @@
                     <div class="col-lg-4">
                         <div class="panel panel-yellow">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Donut Chart Example</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Sales Chart</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-donut-chart"></div>
@@ -347,7 +342,7 @@
                     <div class="col-lg-4">
                         <div class="panel panel-red">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Line Graph Example with Tooltips</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Quarterly Performance Review</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-line-chart"></div>
@@ -360,7 +355,7 @@
                     <div class="col-lg-4">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Bar Graph Example</h3>
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right"></i> Demographic breakdown graph</h3>
                             </div>
                             <div class="panel-body">
                                 <div id="morris-bar-chart"></div>

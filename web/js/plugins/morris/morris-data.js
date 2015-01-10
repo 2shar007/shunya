@@ -6,59 +6,59 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            period: '2012 Q3',
+            '41-60': 2666,
+            '25-40': null,
+            '>60': 2647
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
-        }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
-        }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
-        }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
-        }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
-        }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
-        }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            period: '2012 Q4',
+            '41-60': 2778,
+            '25-40': 2294,
+            '>60': 2441
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            '41-60': 4912,
+            '25-40': 1969,
+            '>60': 2501
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            '41-60': 3767,
+            '25-40': 3597,
+            '>60': 5689
+        }, {
+            period: '2013 Q3',
+            '41-60': 6810,
+            '25-40': 1914,
+            '>60': 2293
+        }, {
+            period: '2013 Q4',
+            '41-60': 5670,
+            '25-40': 4293,
+            '>60': 1881
+        }, {
+            period: '2014 Q1',
+            '41-60': 4820,
+            '25-40': 3795,
+            '>60': 1588
+        }, {
+            period: '2014 Q2',
+            '41-60': 15073,
+            '25-40': 5967,
+            '>60': 5175
+        }, {
+            period: '2014 Q3',
+            '41-60': 10687,
+            '25-40': 4460,
+            '>60': 2028
+        }, {
+            period: '2014 Q4',
+            '41-60': 8432,
+            '25-40': 5713,
+            '>60': 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['41-60', '25-40', '>60'],
+        labels: ['41-60', '25-40', '>60'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -68,13 +68,13 @@ $(function() {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
+            label: "Online Sales",
             value: 12
         }, {
-            label: "In-Store Sales",
+            label: "Agent Sales",
             value: 30
         }, {
-            label: "Mail-Order Sales",
+            label: "Direct Sales",
             value: 20
         }],
         resize: true
@@ -87,97 +87,97 @@ $(function() {
         // Chart data records -- each entry in this array corresponds to a point on
         // the chart.
         data: [{
-            d: '2012-10-01',
+            d: '2014-12-01',
             visits: 802
         }, {
-            d: '2012-10-02',
+            d: '2014-12-02',
             visits: 783
         }, {
-            d: '2012-10-03',
+            d: '2014-12-03',
             visits: 820
         }, {
-            d: '2012-10-04',
+            d: '2014-12-04',
             visits: 839
         }, {
-            d: '2012-10-05',
+            d: '2014-12-05',
             visits: 792
         }, {
-            d: '2012-10-06',
+            d: '2014-12-06',
             visits: 859
         }, {
-            d: '2012-10-07',
+            d: '2014-12-07',
             visits: 790
         }, {
-            d: '2012-10-08',
+            d: '2014-12-08',
             visits: 1680
         }, {
-            d: '2012-10-09',
+            d: '2014-12-09',
             visits: 1592
         }, {
-            d: '2012-10-10',
+            d: '2014-12-10',
             visits: 1420
         }, {
-            d: '2012-10-11',
+            d: '2014-12-11',
             visits: 882
         }, {
-            d: '2012-10-12',
+            d: '2014-12-12',
             visits: 889
         }, {
-            d: '2012-10-13',
+            d: '2014-12-13',
             visits: 819
         }, {
-            d: '2012-10-14',
+            d: '2014-12-14',
             visits: 849
         }, {
-            d: '2012-10-15',
+            d: '2014-12-15',
             visits: 870
         }, {
-            d: '2012-10-16',
+            d: '2014-12-16',
             visits: 1063
         }, {
-            d: '2012-10-17',
+            d: '2014-12-17',
             visits: 1192
         }, {
-            d: '2012-10-18',
+            d: '2014-12-18',
             visits: 1224
         }, {
-            d: '2012-10-19',
+            d: '2014-12-19',
             visits: 1329
         }, {
-            d: '2012-10-20',
+            d: '2014-12-20',
             visits: 1329
         }, {
-            d: '2012-10-21',
+            d: '2014-12-21',
             visits: 1239
         }, {
-            d: '2012-10-22',
+            d: '2014-12-22',
             visits: 1190
         }, {
-            d: '2012-10-23',
+            d: '2014-12-23',
             visits: 1312
         }, {
-            d: '2012-10-24',
+            d: '2014-12-24',
             visits: 1293
         }, {
-            d: '2012-10-25',
+            d: '2014-12-25',
             visits: 1283
         }, {
-            d: '2012-10-26',
+            d: '2014-12-26',
             visits: 1248
         }, {
-            d: '2012-10-27',
+            d: '2014-12-27',
             visits: 1323
         }, {
-            d: '2012-10-28',
+            d: '2014-12-28',
             visits: 1390
         }, {
-            d: '2012-10-29',
+            d: '2014-12-29',
             visits: 1420
         }, {
-            d: '2012-10-30',
+            d: '2014-12-30',
             visits: 1529
         }, {
-            d: '2012-10-31',
+            d: '2014-12-31',
             visits: 1892
         }, ],
         // The name of the data record attribute that contains x-visitss.
@@ -196,27 +196,27 @@ $(function() {
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            device: 'iPhone',
-            geekbench: 136
+            Age: '25-35',
+            Frequency: 136
         }, {
-            device: 'iPhone 3G',
-            geekbench: 137
+            Age: '36-45',
+            Frequency: 137
         }, {
-            device: 'iPhone 3GS',
-            geekbench: 275
+            Age: '46-55',
+            Frequency: 275
         }, {
-            device: 'iPhone 4',
-            geekbench: 380
+            Age: '56-65',
+            Frequency: 380
         }, {
-            device: 'iPhone 4S',
-            geekbench: 655
+            Age: '66-75',
+            Frequency: 655
         }, {
-            device: 'iPhone 5',
-            geekbench: 1571
+            Age: '>=86',
+            Frequency: 1571
         }],
-        xkey: 'device',
-        ykeys: ['geekbench'],
-        labels: ['Geekbench'],
+        xkey: 'Age',
+        ykeys: ['Frequency'],
+        labels: ['No. of customers'],
         barRatio: 0.4,
         xLabelAngle: 35,
         hideHover: 'auto',

@@ -22,6 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<head>
 		<!-- Bootstrap Core CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="shortcut icon" href="assets/shunya.ico">
 	</head>
 <body>
 	<div class="col-lg-4">

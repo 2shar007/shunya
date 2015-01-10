@@ -222,3 +222,11 @@ ul.alert-dropdown {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+.text-center.login-title {
+	color: white
+}
+
+#page-wrapper .panel.panel-default {
+	color: blue;
+}
